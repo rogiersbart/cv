@@ -1,0 +1,802 @@
+---
+title: "Bart Rogiers' CV"
+author: Bart Rogiers
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['styles.css', 'resume']
+    self_contained: false
+knit: purrr::partial(pagedown::chrome_print, output = "cv.pdf")
+---
+
+Aside
+================================================================================
+
+<div style = 'text-align: center;'>
+<img
+  src = 'https://avatars1.githubusercontent.com/u/6832060?s=400&v=4'
+  width = 80%
+  style = 'border-radius: 50%!important;'
+>
+</div>
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+<i class="fa fa-home"></i>
+[rogiersbart.github.io]([https://rogiersbart.github.io)
+<br><i class="fa fa-github"></i>
+[github.com/rogiersbart](https://github.com/rogiersbart)
+<br><i class="fa fa-twitter"></i>
+[twitter.com/rogiersbart](https://twitter.com/rogiersbart)
+<br><i class="fa fa-envelope"></i>
+rogiers.bart@gmail.com
+<br><i class="fa fa-envelope"></i>
+bart.rogiers@sckcen.be
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+R, MODFLOW, MT3D, SQL, git, GitHub, markdown, CSS, HTML, LaTeX, MS Office
+
+Domains {#domains}
+--------------------------------------------------------------------------------
+
+Data science, hydrogeology, spatial data, porous media, radiological
+characterization
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with [**{pagedown}**](https://github.com/rstudio/pagedown).<br>
+Last updated on `r Sys.Date()`.
+
+Main
+================================================================================
+
+Bart Rogiers {#title}
+--------------------------------------------------------------------------------
+
+I am a scientific researcher and [R](https://www.r-project.org/) enthusiast at
+the [Belgian Nuclear Research Centre](https://www.sckcen.be/en) (aka SCK CEN),
+and also have a seat in the council of the [International Association of
+Hydrogeologists](https://iah.org/)' [Belgian chapter](https://belgium.iah.org/).
+
+My research interests are currently focused around the introduction of
+probabilistic programming in hydrogeology and radiological characterization, and
+leveraging procedural texture synthesis in the framework of porous media
+reconstruction.
+
+I furthermore really enjoy introducing people to the modern side of
+[R](https://www.r-project.org/), and help them adopt it as their main workhorse
+for more reproducible science.
+
+Professional Experience {data-icon=laptop data-concise=true}
+--------------------------------------------------------------------------------
+
+### Scientific researcher
+
+SCK CEN | Belgian Nuclear Research Centre 
+
+Mol, Belgium
+
+Present - 2013 <!-- Present - 2013-12-01 -->
+
+### Board member
+
+BCH-CBH | IAH Belgium
+
+Brussels, Belgium
+
+Present - 2015
+
+### Internship
+
+Flanders Environment Agency
+
+Brussels, Belgium
+
+2009 - 2008 <!-- 2009-03 - 2008-09 -->
+
+**Topic** River restoration of the Zwarte Beek between Beringen and Diest:
+Evaluation of the impact on the groundwater system.
+
+**Supervisor** Lermytte J
+
+Teaching Experience {data-icon=chalkboard-teacher data-concise=true}
+--------------------------------------------------------------------------------
+
+### Modern R for data science: The core tidyverse, good practices and our corporate environment
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+Present - 2019
+
+**Format** Yearly 4-day course
+
+**Topics** Data reading, cleaning, manipulation and visualization - Iteration
+with functional programming - Exporting tables and figures - Literate computing
+- Reproducible workflow
+
+### Modern R for data science: Up your data viz game
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+Present - 2020
+
+**Format** Yearly 1-day course
+
+**Topics** More details on {ggplot2}, {scales} and extensions - Figure design
+principles - Data visualization types - Animation
+
+### Training course on radioactive waste management
+
+SCK CEN Academy
+
+Mol, Belgium
+
+2021<br>2017
+
+**Format** 45-min lecture "Characterization techniques used at SCK CEN -
+Uncertainty quantification" during the 1.5-week [radioactive waste
+management course](https://www.sckcen.be/nl/open-course-radioactive-waste-management)
+
+**Topics** Taylor expansion - Monte Carlo error propagation - Probabilistic
+programming - State of the art in radiological waste characterization
+
+Selected papers {data-icon=paper-plane data-concise=true}
+--------------------------------------------------------------------------------
+
+:::aside
+See [orcid](https://orcid.org/0000-0002-8836-0988) or
+[scholar](https://scholar.google.be/citations?user=u421gfwAAAAJ&hl) for more
+extensive overviews.
+<!-- TODO add output project for a complete list and some insights -->
+<!-- Then chance this into "recent papers", and include last few through code -->
+:::
+
+### Nested multiresolution hierarchical simulated annealing algorithm for porous media reconstruction.
+
+Physical Review E
+
+[100(5), 053316](https://doi.org/10.1103/PhysRevE.100.053316)
+
+2019
+
+**Authors** Lemmens L, Rogiers B, Jacques D, Huysmans M, Swennen R, Urai JL, Desbois G, Laloy E
+
+### Multi-scale aquifer characterization and groundwater flow model parameterization using direct push technologies.
+
+Environmental Earth Sciences
+
+[72(5): 1303-1324](http://dx.doi.org/10.1007/s12665-014-3416-1)
+
+2014
+
+**Authors** Rogiers B, Vienken T, Gedeon M, Batelaan O, Mallants D, Huysmans M, Dassargues A
+
+### High resolution saturated hydraulic conductivity logging of borehole cores using air permeability measurements.
+
+Hydrogeology Journal
+
+[22(6): 1345-1358](http://dx.doi.org/10.1007/s10040-014-1144-y)
+
+2014
+
+**Authors** Rogiers B, Winters P, Huysmans M, Beerten K, Mallants D, Gedeon M, Batelaan O, Dassargues A
+
+### Demonstrating large-scale cooling in a Variscan terrane by coupled groundwater and heat flow modelling.
+
+Geothermics
+
+[51: 71-90](http://dx.doi.org/10.1016/j.geothermics.2013.10.014)
+
+2014
+
+**Authors** Rogiers B, Huysmans M, Vandenberghe N, Verkeyn M
+
+### Derivation of flow and transport parameters from outcropping sediments of the Neogene aquifer, Belgium.
+
+Geologica Belgica
+
+[16(3): 129-147](http://popups.ulg.ac.be/1374-8505/index.php?id=4141)
+
+2013
+
+**Authors** Rogiers B, Beerten K, Smeekens T, Mallants D, Gedeon M, Huysmans M, Batelaan O, Dassargues A
+
+### Efficient posterior exploration of a high-dimensional groundwater model from two-stage MCMC simulation and polynomial chaos expansion.
+
+Water Resources Research
+
+[49(5): 2664-2682](http://dx.doi.org/10.1002/wrcr.20226)
+
+2013
+
+**Authors** Laloy E, Rogiers B, Vrugt JA, Mallants D, Jacques D
+
+### Determination of Cs-137 contamination depth distribution in building structures using geostatistical modelling of ISOCS measurements.
+
+Applied Radiation and Isotopes
+
+[79: 25-36](http://dx.doi.org/10.1016/j.apradiso.2013.04.028)
+
+2013
+
+**Authors** Boden S, Rogiers B, Jacques D
+
+### Estimation of hydraulic conductivity and its uncertainty from grain-size data using GLUE and artificial neural networks.
+
+Mathematical Geosciences
+
+[44(6): 739-763](http://dx.doi.org/10.1007/s11004-012-9409-2)
+
+2012
+
+**Authors** Rogiers B, Mallants D, Batelaan O, Gedeon M, Huysmans M, Dassargues A
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### PhD in Geology
+
+SCK CEN & KU Leuven
+
+Mol, Belgium
+
+2013 - 2009 <!-- 2013-11-22 - 2009-11-23, graduated on 2013-11-27 -->
+
+**Thesis** Conditional Stochastic Simulation of Groundwater Flow and
+Contaminant Transport in a Sandy Aquifer at Mol/Dessel.
+
+**Supervisory committee** Batelaan O, Mallants D, Gedeon M, Huysmans M,
+Dassargues A
+
+**Additional members of the jury** Vandenberghe N, Swennen R, Vanderborght J,
+Dietrich P
+
+### Master of Science in Geology
+
+KU Leuven, magna cum laude
+
+Leuven, Belgium
+
+2009 - 2007 <!-- 2009-06 - 2007-09, graduated magna cum laude on 20019-07-02 -->
+
+**Thesis** Interpretation of the heat-flow density in the deep wells Soumagne,
+Grand-Halleux and Havelange in Belgium, by means of a numerical coupled heat
+transport and groundwater flow model.
+
+**Promoters** Vandenberghe N, Huysmans M
+
+### Bachelor of Science in Geology, Option Physics
+
+KU Leuven, cum laude
+
+Leuven, Belgium
+
+2007 - 2004 <!-- 2007-06 - 2004-09, graduated cum laude on 2007-07-05 -->
+
+**Thesis** The meaning of heat-flow density measurements in the wells
+Grand-Halleux, Soumagne, Meer and Havelange.
+
+**Promoters** Vandenberghe N, Huysmans M
+
+Peer reviewing {data-icon=user-secret data-concise=true}
+--------------------------------------------------------------------------------
+
+::: aside
+See [publons](https://publons.com/researcher/463829/bart-rogiers/peer-review/)
+for an up to date overview.
+:::
+
+### Hydrogeology Journal (3)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Water Resources Research (3)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Computers & Geosciences (2)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Journal of Hydroinformatics (2)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Mathematical Geosciences (2)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Toxics (2)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Advances in Water Resources (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Earth Science Informatics (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Environmental Earth Sciences (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Frontiers in Earth Science (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Journal of African Earth Sciences (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Journal of Environmental Quality (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+### Journal of Hydrology and Hydromechanics (1) 
+
+N/A
+
+N/A
+ 
+N/A
+
+### Vadose Zone Journal (1)
+
+N/A
+
+N/A
+ 
+N/A
+
+Professional development {data-icon=seedling data-concise=true}
+--------------------------------------------------------------------------------
+
+:::aside
+Note I am using the ISO 8601:2000 standard for truncated date (interval)
+notation.
+:::
+
+### Email - Go for 0 Inbox
+
+Loontiens S, Shortcuts, \-\-06-06
+
+Mol, Belgium
+
+2019
+
+### Organize your time
+
+Loontiens S, Shortcuts, \-\-05-06
+
+Mol, Belgium
+
+2019
+
+### Querying Data with transact-SQL
+
+RealDolmen, \-\-11-14/15, \-\-\-27
+
+Mol, Belgium
+
+2018
+
+### Making 3D drawings with Sketchup | Fundamentals
+
+Mangelschots N, SCK CEN Learning & development, \-\-11-12
+
+Mol, Belgium
+
+2018
+
+### Git version control
+
+Van Robbroeck K, RealDolmen, \-\-09-27/28
+
+Mol, Belgium
+
+2017
+
+### MCNP - basic training course
+
+SCK CEN Academy, \-\-11-08
+
+Mol, Belgium
+
+2016
+
+### An introduction to Bayesian computing with INLA
+
+Rue H, \-\-07-08
+
+Mines ParisTech, France
+
+2014
+
+### Advanced stochastic simulations
+
+Lantuéjoul C, Romary T, \-\-07-07
+
+Mines ParisTech, France
+
+2014
+
+### Short course on underlying R&D for the disposal of radioactive waste
+
+SCK CEN Academy, \-\-03-19/20
+
+Mol, Belgium
+
+2014
+
+### Version control with subversion
+
+Bex G-J, ICTS KU Leuven, \-\-02-26
+
+Leuven, Belgium
+
+2013
+
+### HPC introduction
+
+Oldenhof M, ICTS KU Leuven, \-\-02-19
+
+Leuven, Belgium
+
+2013
+
+### Advanced R programming topics
+
+Wijffels J, BNOSAC, \-\-10-18/19
+
+Leuven, Belgium
+
+2012
+
+### Upgrade your written English
+
+Vermeire A, \-\-04-19, \-\-05-03/04
+
+Mol, Belgium
+
+2012
+
+### LaTeX - introduction
+
+ICTS KU Leuven, \-\-03-29/30
+
+Leuven, Belgium
+
+2012
+
+### Data mining in practice
+
+CS KU Leuven, \-\-02-06/07
+
+Leuven, Belgium
+
+2012
+
+### Speedreading
+
+Lernout B, \-\-10-11
+
+Mol, Belgium
+
+2011
+
+### Scientific writing & speaking
+
+Vermeire A, \-\-03-02, \-\-\-09, \-\-\-21, \-\-\-28
+
+Mol, Belgium
+
+2011
+
+### Global sensitivity analysis techniques for probabilistic groundwater modeling
+
+Mishra S, \-\-09-21
+
+Valencia, Spain
+
+2010
+
+### 2nd summer school on flow and transport in porous and fractured media
+
+CNRS, \-\-08-16/28
+
+Cargèse, France
+
+2010
+
+### Inverse modelling in earth and environmental sciences
+
+Vrugt J, Huisman S, \-\-07-26/29
+
+Leuven, Belgium
+
+2010
+
+### Meet the expert in hydrology - Round tables among young and established scientists
+
+Carrera J, \-\-05-05
+
+Vienna, Austria
+
+2010
+
+### Short course on geostatistical analysis of environmental data
+
+Goovaerts P, \-\-03-08/12
+
+Gainesville, FL, USA
+
+2010
+
+### Introduction to R
+
+ICTS KU Leuven & LStat, \-\-02-22/23
+
+Leuven, Belgium
+
+2010
+
+### Multivariate data analysis, with applications
+
+ICTS KU Leuven & LStat, \-\-02-08/10
+
+Leuven, Belgium
+
+2010
+
+### Hydrological modelling and uncertainty analysis
+
+Buytaert W, \-\-01-18
+
+Louvain-la-Neuve, Belgium
+
+2010
+
+Grants {data-icon=award data-concise=true}
+--------------------------------------------------------------------------------
+
+### SCK CEN PhD scholarship
+
+SCK CEN Academy PhD program
+
+Mol, Belgium
+
+2013 - 2009
+
+Stays abroad {data-icon=plane data-concise=true}
+--------------------------------------------------------------------------------
+
+### CSIRO Land & Water and Flinders University
+
+Scientific visit, \-\-05-22/06-15
+
+Adelaide, Australia
+
+2013
+
+Student supervision {data-icon=user-graduate data-concise=true}
+--------------------------------------------------------------------------------
+
+:::aside
+*University promoter in italic.*
+:::
+
+### Casillas A, PhD
+
+SCK CEN & Ghent University
+
+N/A
+
+Present - 2018
+
+**Topic** Joint inversion of physical and chemical state variable data within a
+multi-model subsurface hydrology framework.
+
+**Supervisors** *Walraevens K*, Rogiers B, Beerten K,
+Wouters L
+
+### Lu M, PhD
+
+SCK CEN & KU Leuven
+
+N/A
+
+Present - 2017
+
+**Topic** Quantifying and predicting river-aquifer exchange in lowland
+floodplains (Nete, Demer and Dijle).
+
+**Supervisors** *Huysmans M*, Gedeon M, Beerten K, Rogiers B
+
+### Moudud H, PhD
+
+SCK CEN & Vrije Universiteit Brussel
+
+N/A
+
+Present - 2017
+
+**Topic** Decreasing global uncertainty in mapping site & environmental
+contamination by combining different measurement techniques in a joint
+(geo)statistical interpretation.
+
+**Supervisors** *Huysmans M*, Vidmar T, Rogiers B
+
+### Lemmens L, PhD
+
+SCK CEN & KU Leuven
+
+N/A
+
+Present - 2016
+
+**Topic** 3D Porous media reconstruction for natural and engineered radioactive waste confinement barriers – A multiresolution-multiphase approach.
+
+**Supervisors** *Huysmans M*, Rogiers B, Laloy E
+
+### Neyens C, MSc thesis
+
+Faculty of Science, KU Leuven
+
+N/A
+ 
+2016
+
+**Topic** Analysis of pumping tests in a sandy aquifer in Northern
+Belgium.
+
+**Supervisors** *Huysmans M*, Gedeon M, Laloy E, Rogiers B
+
+### Janssens L, BSc thesis
+
+Faculty of Science, KU Leuven
+
+N/A
+
+2015
+
+**Topic** Omzetting van digitale foto's van ontsluitingen in
+hydraulische conductiviteit, met behulp van beeldanalyse en luchtpermeameter
+datasets.
+
+**Supervisors** *Huysmans M*, Rogiers B
+
+### Hoedemaekers T, BSc thesis
+
+Faculty of Science, KU Leuven
+
+N/A
+
+2015
+
+**Topic** Slug- en dilutietesten in de Neogene aquifer, in en
+rond de nucleaire zone te Mol-Dessel- Geel.
+
+**Supervisors** *Huysmans M*, Rogiers B, Gedeon M
+
+### Bennett G, MSc thesis
+
+Faculty of Engineering, Vrije Universiteit Brussel
+
+N/A
+
+2014
+
+**Topic** Integration of detailed borehole core measurements and pump
+test data from the aquifers below the Boom Clay in a groundwater flow model.
+
+**Supervisors** *Huysmans M*, Rogiers B, Vandersteen K
+
+### Potums L, BSc thesis
+
+Faculty of Science, KU Leuven
+
+N/A
+
+2014
+
+**Topic** Gedetailleerde karakterisatie van boorkernen uit de diepe
+aquifers rond de Boomse klei, met behulp van een luchtpermeameter.
+
+**Supervisors** *Huysmans M*, Rogiers B
+
+### Winters P, BSc thesis
+
+Faculty of Science, KU Leuven
+
+N/A
+
+2012
+
+**Topic** Haalbaarheidsstudie voor de gedetailleerde opmeting van de
+hydraulische conductiviteit op boorkernen, met behulp van een luchtpermeameter.
+
+**Supervisors** *Huysmans M*, Rogiers B
+
+Examination committees {data-icon=university data-concise=true}
+--------------------------------------------------------------------------------
+
+### Nhu Viet Ha, PhD
+
+Department of Hydrology and Hydraulic Engineering, Vrije Universiteit Brussel
+
+N/A
+ 
+2016
+
+**Thesis** Spatio-temporal prediction of land subsidence using GIS-based 3D
+geological, geotechnical and groundwater flow models in Hanoi city (Vietnam).
+
+### Nafyad Serre Kawo, MSc
+
+Interuniversity programme: Master of Science in Physical Land Resources,
+Universiteit Gent - Vrije Universiteit Brussel
+
+N/A
+
+2013
+
+**Thesis** Model Based Evaluation of the Protection Zones around the WaterGroep
+Public Drinking Water Well Field in Huiskens (Korbeek-Lo), Belgium.
