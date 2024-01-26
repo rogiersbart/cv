@@ -27,8 +27,6 @@ Contact Info {#contact}
 [rogiersbart.github.io]([https://rogiersbart.github.io)
 <br><i class="fa fa-github"></i>
 [github.com/rogiersbart](https://github.com/rogiersbart)
-<br><i class="fa fa-twitter"></i>
-[twitter.com/rogiersbart](https://twitter.com/rogiersbart)
 <br><i class="fa fa-envelope"></i>
 rogiers.bart@gmail.com
 <br><i class="fa fa-envelope"></i>
@@ -37,7 +35,8 @@ bart.rogiers@sckcen.be
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-R, MODFLOW, MT3D, SQL, git, GitHub, markdown, CSS, HTML, LaTeX, MS Office
+R, RStudio, Quarto, Stan, Bash, Python, git, GitHub, MODFLOW, MT3D, SQL,
+markdown, CSS, HTML, LaTeX, MS Office
 
 Domains {#domains}
 --------------------------------------------------------------------------------
@@ -57,38 +56,39 @@ Main
 Bart Rogiers {#title}
 --------------------------------------------------------------------------------
 
-I am a scientific researcher and [R](https://www.r-project.org/) enthusiast at
-the [Belgian Nuclear Research Centre](https://www.sckcen.be/en) (aka SCK CEN),
-and also have a seat in the council of the [International Association of
+I am a research scientist and the [R](https://www.r-project.org/) community lead
+at the [Belgian Nuclear Research Centre](https://www.sckcen.be/en), and also
+have a seat in the board of the [International Association of
 Hydrogeologists](https://iah.org/)' [Belgian chapter](https://belgium.iah.org/).
 
 My research interests are currently focused around the introduction of
-probabilistic programming in hydrogeology and radiological characterization, and
-leveraging procedural texture synthesis in the framework of porous media
-reconstruction.
+probabilistic programming in radiological characterization and hydrogeology, and
+leveraging procedural solid texture synthesis for porous media reconstruction,
+targeting natural and engineered barrier materials considered in the framework
+of radioactive waste disposal.
 
 I furthermore really enjoy introducing people to the modern side of
 [R](https://www.r-project.org/), and help them adopt it as their main workhorse
 for more reproducible science.
 
-Professional Experience {data-icon=laptop data-concise=true}
+Professional Experience {data-icon=briefcase data-concise=true}
 --------------------------------------------------------------------------------
 
-### Scientific researcher
+### Board member
 
-SCK CEN | Belgian Nuclear Research Centre 
+IAH Belgium (BCH-CBH)
+
+Brussels, Belgium
+
+Present - 2015 <!-- Present - 2015-01-16 -->
+
+### Research scientist
+
+Belgian Nuclear Research Centre (SCK CEN)
 
 Mol, Belgium
 
 Present - 2013 <!-- Present - 2013-12-01 -->
-
-### Board member
-
-BCH-CBH | IAH Belgium
-
-Brussels, Belgium
-
-Present - 2015
 
 ### Internship
 
@@ -103,22 +103,48 @@ Evaluation of the impact on the groundwater system.
 
 **Supervisor** Lermytte J
 
-Teaching Experience {data-icon=chalkboard-teacher data-concise=true}
+Teaching Experience {data-icon=person-chalkboard data-concise=true}
 --------------------------------------------------------------------------------
 
-### Modern R for data science: The core tidyverse, good practices and our corporate environment
+### R: Create command line tools with {optparse}
 
 SCK CEN Learning & development
 
 Mol, Belgium
 
-Present - 2019
+2023
 
-**Format** Yearly 4-day course
+**Format** 1-day course
 
-**Topics** Data reading, cleaning, manipulation and visualization - Iteration
-with functional programming - Exporting tables and figures - Literate computing
-- Reproducible workflow
+**Topics** Environment variables, Git Bash, R in a terminal, redirections, 
+command line arguments and options, automated execution.
+
+### R: Handle your data with the {tidyverse}
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+2023
+
+**Format** 3-day course
+
+**Topics** Data reading, cleaning, manipulation and visualization, handling
+specific types, and iteration and nesting.
+
+### R: Get started
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+2023
+
+**Format** 1-day course
+
+**Topics** Installing the required software, tweaking the RStudio IDE, managing
+contributed packages, binding names to values, working with vectors, subsetting
+R objects, using control flow
 
 ### Modern R for data science: Up your data viz game
 
@@ -126,12 +152,26 @@ SCK CEN Learning & development
 
 Mol, Belgium
 
-Present - 2020
+2021 - 2020
 
-**Format** Yearly 1-day course
+**Format** 1-day course, with editions in 2020 and 2021.
 
 **Topics** More details on {ggplot2}, {scales} and extensions - Figure design
 principles - Data visualization types - Animation
+
+### Modern R for data science: The core tidyverse, good practices and our corporate environment
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+2021 - 2019
+
+**Format** 4-day course, with editions in 2019, 2020 and 2021.
+
+**Topics** Data reading, cleaning, manipulation and visualization - Iteration
+with functional programming - Exporting tables and figures - Literate computing
+- Reproducible workflow
 
 ### Training course on radioactive waste management
 
@@ -139,105 +179,330 @@ SCK CEN Academy
 
 Mol, Belgium
 
-2021<br>2017
+2024 - 2017
 
 **Format** 45-min lecture "Characterization techniques used at SCK CEN -
 Uncertainty quantification" during the 1.5-week [radioactive waste
-management course](https://www.sckcen.be/nl/open-course-radioactive-waste-management)
+management course](https://www.sckcen.be/nl/open-course-radioactive-waste-management).
+Contributed to the editions in 2017, 2021 and 2024.
 
 **Topics** Taylor expansion - Monte Carlo error propagation - Probabilistic
 programming - State of the art in radiological waste characterization
 
-Selected papers {data-icon=paper-plane data-concise=true}
+Journal papers {data-icon=newspaper data-concise=true}
 --------------------------------------------------------------------------------
 
 :::aside
-See [orcid](https://orcid.org/0000-0002-8836-0988) or
-[scholar](https://scholar.google.be/citations?user=u421gfwAAAAJ&hl) for more
-extensive overviews.
-<!-- TODO add output project for a complete list and some insights -->
-<!-- Then chance this into "recent papers", and include last few through code -->
+See [orcid](https://orcid.org/0000-0002-8836-0988),
+[scholar](https://scholar.google.be/citations?user=u421gfwAAAAJ&hl), or our
+[institutional
+repository](https://researchportal.sckcen.be/en/persons/bart-rogiers) for more
+extensive and up to date overviews of my scientific output.
 :::
 
-### Nested multiresolution hierarchical simulated annealing algorithm for porous media reconstruction.
+### [Probabilistic radwaste characterization: findings of a multi-method, multi-mockup exercise using interpolation-based surrogate efficiencies.](https://doi.org/10.1016/j.anucene.2023.110065)
+
+Annals of Nuclear Energy
+
+194: 110065
+
+2023
+
+**Authors** Laloy E, Rogiers B, Bielen A, Borella A, Kubinski W, Carasco C, Mathonat C, Boden S.
+
+### [Improving Bayesian radiological profiling of waste drums using Dirichlet priors, Gaussian process priors, and hierarchical modeling.](https://doi.org/10.1016/j.apradiso.2023.110691)
+
+Applied Radiation and Isotopes
+
+194: 110691
+
+2023
+
+**Authors** Laloy E, Rogiers B, Bielen A, Borella A, Boden S.
+
+
+### [Estimation of soil radioactivity-depth profiles using Bayesian inversion of borehole gamma spectrometry data.](https://doi.org/10.1016/j.jenvrad.2022.107077)
+
+Journal of Environmental Radioactivity
+
+257: 107077
+
+2023
+
+**Authors** Hasan MM, Rogiers B, Laloy E, Camps J, Rutten J, Huysmans M.
+
+### [Characterizing groundwater heat-transport in a complex lowland aquifer using paleo-temperature reconstruction, satellite data, temperature-depth profiles, and numerical models.](https://doi.org/10.5194/hess-26-5577-2022)
+
+Hydrology and Earth System Sciences
+
+26: 5577–5604
+
+2022
+
+**Authors** Casillas-Trasvina A, Rogiers B, Beerten K, Wouters L, Walraevens K.
+
+
+### [2D Inversion of in situ gamma-ray spectrometric measurements of 137Cs for site characterization.](https://doi.org/10.1016/j.jenvrad.2022.107052)
+
+Journal of Environmental Radioactivity
+
+256: 107052
+
+2023
+
+**Authors** Hasan MM, Camps J, Rogiers B, Laloy E, Rutten J, Boden S, Huysmans M.
+
+
+
+### [Using helium-4, tritium, carbon-14 and other hydrogeochemical evidence to evaluate the groundwater age distribution: the case of the Neogene aquifer, Belgium.](https://doi.org/10.1016/j.hydroa.2022.100132)
+
+Journal of Hydrology X
+
+17: 100132
+
+2022
+
+**Authors** Casillas-Trasvina A,  Rogiers B, Beerten K, Pärn J, Wouters L, Walraevens K.
+
+### [Exploring river–aquifer interactions and hydrological system response using baseflow separation, impulse response modelling and time series analysis in three temperate lowland catchments.](https://doi.org/10.5194/hess-26-3629-2022)
+
+Hydrology and Earth System Sciences
+
+26: 3629–3649
+
+2022
+
+**Authors** Lu M, Rogiers B, Beerten K, Gedeon M, Huysmans M.
+
+### [Soil radioactivity-depth profiles from regularized inversion of borehole gamma spectrometry data.](https://doi.org/10.1016/j.jenvrad.2021.106807)
+
+Journal of Environmental Radioactivity
+
+243: 106807
+
+2022
+
+**Authors** Hasan MM, Rogiers B, Laloy E, Rutten J, Camps J, Vidmar T, Huysmans M.
+
+### [Exploring the hydrological effects of normal faults at the boundary of the Roer Valley Graben in Belgium using a catchment-scale groundwater flow model.](https://doi.org/10.1007/s10040-021-02423-y)
+
+Hydrogeology Journal
+
+30: 133-149
+
+2021
+
+**Authors** Casillas-Trasvina A, Rogiers B, Beerten K, Wouters L, Walraevens K.
+
+### [Towards a scientific-based assessment of long-term durability and performance of cementitious materials for radioactive waste conditioning and disposal.](https://doi.org/10.1016/j.jnucmat.2021.153201)
+
+Journal of Nuclear Materials
+
+557: 153201
+
+2021
+
+**Authors** Jacques D, Phung QT, Perko J, Seetharam SC, Maes N, Liu S, Yu L, Rogiers B, Laloy E
+
+### [Bayesian inference of 1D activity profiles from segmented gamma scanning of a heterogeneous radioactive waste drum.](https://doi.org/10.1016/j.apradiso.2021.109803)
+
+Applied Radiation and Isotopes
+
+175: 109803
+
+2021
+
+**Authors** Laloy E, Rogiers B, Bielen A, Boden S.
+
+### [INSIDER UC2: the BR3 biological shield preliminary results and future work.](https://doi.org/10.1051/epjn/2019054)
+
+EPJ Nuclear Sciences & Technologies
+
+6: 14
+
+2020
+
+**Authors** Broeckx W, Rogiers B, Mangelschots N, Vandyck R, Verstrepen G, Boden S.
+
+### [Development of a user-friendly guideline for data analysis and sampling design strategy.](https://doi.org/10.1051/epjn/2020006)
+
+EPJ Nuclear Sciences & Technologies
+
+6: 16
+
+2020
+
+**Authors** Desnoyers Y, Rogiers B.
+
+### [The relation between petrophysical and transport properties of the Boom Clay and Eigenbilzen Sands.](https://doi.org/10.1016/j.apgeochem.2020.104527)
+
+Applied Geochemistry
+
+114: 104527
+
+2020
+
+**Authors** Jacops E, Rogiers B, Frederickx L, Swennen R, Krooss BM, Amann-Hildenbrand A, Littke R, Bruggeman C.
+
+### [Nested multiresolution hierarchical simulated annealing algorithm for porous media reconstruction.](https://doi.org/10.1103/PhysRevE.100.053316)
 
 Physical Review E
 
-[100(5), 053316](https://doi.org/10.1103/PhysRevE.100.053316)
+100(5): 053316
 
 2019
 
 **Authors** Lemmens L, Rogiers B, Jacques D, Huysmans M, Swennen R, Urai JL, Desbois G, Laloy E
 
-### Multi-scale aquifer characterization and groundwater flow model parameterization using direct push technologies.
+### [Metrology for decommissioning nuclear facilities: Partial outcomes of joint research project within the European Metrology Research Program.](https://doi.org/10.1016/j.apradiso.2017.08.032)
+
+Applied Radiation and Isotopes
+
+134: 351-357
+
+2018
+
+**Authors** Suran J, Kovar P, Smoldasova J, Šolc J, Van Ammel R, Miranda MG, Russell B, Arnold D, Zapata-Garcia D, Boden S, Rogiers B, Sand J, Peräjärvi K, Holm P, Hay B, Failleau G, Plumeri S, Beck YL, Grísa T.
+
+### [Bayesian inversion of a CRN depth profile to infer Quaternary erosion of the northwestern Campine Plateau (NE Belgium).](https://doi.org/10.5194/esurf-5-331-2017)
+
+Earth Surface Dynamics
+
+5: 331-345
+
+2017
+
+**Authors** Laloy E, Beerten K, Vanacker V, Christl M, Rogiers B, Wouters L.
+
+### [Model-based classification of CPT data and automated lithostratigraphic mapping for high-resolution characterization of a heterogeneous sedimentary aquifer.](https://doi.org/10.1371/journal.pone.0176656)
+
+PLOS One
+
+12(5): e0176656
+
+2017
+
+**Authors** Rogiers B, Mallants D, Batelaan O, Gedeon M, Huysmans M, Dassargues A.
+
+### [Episodic activity of a dormant fault in tectonically stable Europe: The Rauw fault (NE Belgium).](https://doi.org/10.1016/j.tecto.2017.01.02)
+
+Tectonophysics
+
+699: 146-163
+
+2017
+
+**Authors** Verbeeck K, Wouters L, Vanneste K, Camelbeeck T, Vandenberghe D, Beerten K, Rogiers B, Schiltz M, Burow Ch, Mees F, De Graeve J, Vandenberghe N.
+
+### [The usefulness of outcrop analogue air permeameter measurements for analysing aquifer heterogeneity: Quantifying outcrop hydraulic conductivity and its spatial variability.](https://doi.org/10.1002/hyp.10007)
+
+Hydrological processes
+
+28: 5176-5188
+
+2014
+
+**Authors** Rogiers B, Beerten K, Smeekens T, Mallants D, Gedeon M, Huysmans M, Batelaan O, Dassargues A.
+
+### [Multi-scale aquifer characterization and groundwater flow model parameterization using direct push technologies.](http://dx.doi.org/10.1007/s12665-014-3416-1)
 
 Environmental Earth Sciences
 
-[72(5): 1303-1324](http://dx.doi.org/10.1007/s12665-014-3416-1)
+72(5): 1303-1324
 
 2014
 
 **Authors** Rogiers B, Vienken T, Gedeon M, Batelaan O, Mallants D, Huysmans M, Dassargues A
 
-### High resolution saturated hydraulic conductivity logging of borehole cores using air permeability measurements.
+### [High resolution saturated hydraulic conductivity logging of borehole cores using air permeability measurements.](http://dx.doi.org/10.1007/s10040-014-1144-y)
 
 Hydrogeology Journal
 
-[22(6): 1345-1358](http://dx.doi.org/10.1007/s10040-014-1144-y)
+22(6): 1345-1358
 
 2014
 
 **Authors** Rogiers B, Winters P, Huysmans M, Beerten K, Mallants D, Gedeon M, Batelaan O, Dassargues A
 
-### Demonstrating large-scale cooling in a Variscan terrane by coupled groundwater and heat flow modelling.
+### [The usefulness of outcrop analogue air permeameter measurements for analysing aquifer heterogeneity: testing outcrop hydrogeological parameters with independent borehole data.](https://doi.org/10.5194/hess-17-5155-2013)
+
+Hydrology and Earth System Sciences
+
+17: 5155-5166
+
+2013
+
+**Authors** Rogiers B, Beerten K, Smeekens T, Mallants D, Gedeon M, Huysmans M, Batelaan O, Dassargues A.
+
+### [Demonstrating large-scale cooling in a Variscan terrane by coupled groundwater and heat flow modelling.](http://dx.doi.org/10.1016/j.geothermics.2013.10.014)
 
 Geothermics
 
-[51: 71-90](http://dx.doi.org/10.1016/j.geothermics.2013.10.014)
+51: 71-90
 
 2014
 
 **Authors** Rogiers B, Huysmans M, Vandenberghe N, Verkeyn M
 
-### Derivation of flow and transport parameters from outcropping sediments of the Neogene aquifer, Belgium.
+### [Derivation of flow and transport parameters from outcropping sediments of the Neogene aquifer, Belgium.](http://popups.ulg.ac.be/1374-8505/index.php?id=4141)
 
 Geologica Belgica
 
-[16(3): 129-147](http://popups.ulg.ac.be/1374-8505/index.php?id=4141)
+16(3): 129-147
 
 2013
 
 **Authors** Rogiers B, Beerten K, Smeekens T, Mallants D, Gedeon M, Huysmans M, Batelaan O, Dassargues A
 
-### Efficient posterior exploration of a high-dimensional groundwater model from two-stage MCMC simulation and polynomial chaos expansion.
+### [Efficient posterior exploration of a high-dimensional groundwater model from two-stage MCMC simulation and polynomial chaos expansion.](http://dx.doi.org/10.1002/wrcr.20226)
 
 Water Resources Research
 
-[49(5): 2664-2682](http://dx.doi.org/10.1002/wrcr.20226)
+49(5): 2664-2682
 
 2013
 
 **Authors** Laloy E, Rogiers B, Vrugt JA, Mallants D, Jacques D
 
-### Determination of Cs-137 contamination depth distribution in building structures using geostatistical modelling of ISOCS measurements.
+### [Determination of Cs-137 contamination depth distribution in building structures using geostatistical modelling of ISOCS measurements.](http://dx.doi.org/10.1016/j.apradiso.2013.04.028)
 
 Applied Radiation and Isotopes
 
-[79: 25-36](http://dx.doi.org/10.1016/j.apradiso.2013.04.028)
+79: 25-36
 
 2013
 
 **Authors** Boden S, Rogiers B, Jacques D
 
-### Estimation of hydraulic conductivity and its uncertainty from grain-size data using GLUE and artificial neural networks.
+### [A critical review of laboratory and in-situ hydraulic conductivity measurements for the Boom Clay in Belgium.](https://doi.org/10.1016/j.clay.2013.02.018)
+
+Applied Clay Science
+
+75-76: 1-12
+
+2013
+
+**Authors** Yu L, Rogiers B, Gedeon M, Marivoet J, De Craen M, Mallants D.
+
+### [Estimation of hydraulic conductivity and its uncertainty from grain-size data using GLUE and artificial neural networks.](http://dx.doi.org/10.1007/s11004-012-9409-2)
 
 Mathematical Geosciences
 
-[44(6): 739-763](http://dx.doi.org/10.1007/s11004-012-9409-2)
+44(6): 739-763
 
 2012
 
 **Authors** Rogiers B, Mallants D, Batelaan O, Gedeon M, Huysmans M, Dassargues A
+
+### [Evaluating the impact of river restoration on the local groundwater and ecological system: a case study in NE Flanders.](https://popups.uliege.be/1374-8505/index.php?id=3431)
+
+Geologica Belgica
+
+14(3-4): 265-276
+
+2011
+
+**Authors** Rogiers B, Lermytte J, De Bie E, Batelaan O.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -286,11 +551,11 @@ Grand-Halleux, Soumagne, Meer and Havelange.
 
 **Promoters** Vandenberghe N, Huysmans M
 
-Peer reviewing {data-icon=user-secret data-concise=true}
+Peer reviewing {data-icon=magnifying-glass data-concise=true}
 --------------------------------------------------------------------------------
 
 ::: aside
-See [publons](https://publons.com/researcher/463829/bart-rogiers/peer-review/)
+See [orcid](https://orcid.org/0000-0002-8836-0988)
 for an up to date overview.
 :::
 
@@ -413,6 +678,22 @@ Professional development {data-icon=seedling data-concise=true}
 Note I am using the ISO 8601:2000 standard for truncated date (interval)
 notation.
 :::
+
+### Learning facilitator (Train the trainer)
+
+Ceelen N, Progress Consulting, \-\-01-16, \-\-\-23, \-\-02-16
+
+Mol, Belgium
+
+2023
+
+### Train-The-Trainer webinars
+
+Clarijs T & Van Puyvelde L, SCK CEN learning & development, \-\-05-28,\-\-06-03, \-\-\-15, \-\-\-21, \-\-\-25, \-\-\-28, \-\-\-30
+
+Online
+
+2021
 
 ### Email - Go for 0 Inbox
 
@@ -643,19 +924,41 @@ Student supervision {data-icon=user-graduate data-concise=true}
 *University promoter in italic.*
 :::
 
+### Aouf A, PhD
+
+SCK CEN & UCLouvain
+
+N/A
+
+Present - 2023
+
+**Topic** Deep learning for 3D porous media reconstruction of clay and cement-based materials
+
+**Supervisors** *De Vleeschouwer Ch*, Laloy E, Rogiers B
+
+### Casas Molina V, PhD
+
+SCK CEN & Ghent University
+
+N/A
+
+Present - 2023
+
+**Topic** Machine learning for accurate and efficient uncertainty quantification in radiological waste characterization
+
+**Supervisors** *Couckuyt I*, Laloy E, Rogiers B
+
 ### Casillas A, PhD
 
 SCK CEN & Ghent University
 
 N/A
 
-Present - 2018
+2022 - 2018
 
-**Topic** Joint inversion of physical and chemical state variable data within a
-multi-model subsurface hydrology framework.
+**Topic** Assessment of unconventional state variables to constrain groundwater flow models of the Neogene Aquifer in the Campine Basin in Belgium
 
-**Supervisors** *Walraevens K*, Rogiers B, Beerten K,
-Wouters L
+**Supervisors** *Walraevens K*, Rogiers B, Beerten K, Wouters L
 
 ### Lu M, PhD
 
@@ -676,11 +979,9 @@ SCK CEN & Vrije Universiteit Brussel
 
 N/A
 
-Present - 2017
+2022 - 2017
 
-**Topic** Decreasing global uncertainty in mapping site & environmental
-contamination by combining different measurement techniques in a joint
-(geo)statistical interpretation.
+**Topic** In situ methods for high resolution mapping of radioactive soil contamination
 
 **Supervisors** *Huysmans M*, Vidmar T, Rogiers B
 
@@ -777,6 +1078,28 @@ hydraulische conductiviteit op boorkernen, met behulp van een luchtpermeameter.
 
 Examination committees {data-icon=university data-concise=true}
 --------------------------------------------------------------------------------
+
+### Nick Janssens, PhD
+
+Department of Earth and Environmental Sciences, KU Leuven
+
+N/A
+
+2022
+
+**Thesis** Three-dimensional superresolution models for fluid flow simulation,
+developed for computed tomography (CT) scans for continental carbonates.
+
+### George Bennett, PhD
+
+Department of Geology, Ghent University
+
+N/A
+
+2022
+
+**Thesis** Hydrogeological investigation of a volcanic aquifer system on the flanks of
+Mount Meru, Northern Tanzania.
 
 ### Nhu Viet Ha, PhD
 
