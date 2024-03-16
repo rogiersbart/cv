@@ -25,12 +25,10 @@ Contact Info {#contact}
 
 <i class="fa fa-home"></i>
 [rogiersbart.github.io]([https://rogiersbart.github.io)
-<br><i class="fa fa-github"></i>
-[github.com/rogiersbart](https://github.com/rogiersbart)
-<br><i class="fa fa-envelope"></i>
-rogiers.bart@gmail.com
 <br><i class="fa fa-envelope"></i>
 bart.rogiers@sckcen.be
+<br><i class="fa fa-envelope"></i>
+rogiers.bart@gmail.com
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -688,6 +686,22 @@ Professional development {data-icon=seedling data-concise=true}
 Note I am using the ISO 8601:2000 standard for truncated date (interval)
 notation.
 :::
+
+### Statistics: Basic training course
+
+Claesen J, Amsterdam UMC, \-\-03-01, \-\-\-08, \-\-\-15
+
+Mol, Belgium
+
+2024
+
+### Python: Basic training course
+
+Gupta S, SCK CEN learning & development, \-\-10-19
+
+Mol, Belgium
+
+2023
 
 ### Learning facilitator (Train the trainer)
 
