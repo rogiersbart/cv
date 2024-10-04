@@ -195,6 +195,16 @@ repository](https://researchportal.sckcen.be/en/persons/bart-rogiers) for more
 extensive and up to date overviews of my scientific output.
 :::
 
+### [Bayesian inference of coupled groundwater flow and radiogenic helium-4 production and transport at the catchment scale](https://doi.org/10.1016/j.scitotenv.2024.176510)
+
+Science of The Total Environment
+
+954: 176510
+
+2024
+
+**Authors** Casillas-Trasvina A, Rogiers B, Beerten K, Wouters L, Walraevens K.
+
 ### [Bayesian optimization of a collimated HPGe detector model for Segmented Gamma Scanning.](https://doi.org/10.1016/j.nima.2024.169687)
 
 Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
