@@ -99,6 +99,33 @@ Evaluation of the impact on the groundwater system.
 Teaching Experience {data-icon=person-chalkboard data-concise=true}
 --------------------------------------------------------------------------------
 
+### R: Handle your data with the {tidyverse}
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+2024 - 2023
+
+**Format** 3-day course, with editions in 2023 and 2024.
+
+**Topics** Data reading, cleaning, manipulation and visualization, handling
+specific types, and iteration and nesting.
+
+### R: Get started
+
+SCK CEN Learning & development
+
+Mol, Belgium
+
+2024 - 2023
+
+**Format** 1-day course, with editions in 2023 and 2024.
+
+**Topics** Installing the required software, tweaking the RStudio IDE, managing
+contributed packages, binding names to values, working with vectors, subsetting
+R objects, and using control flow.
+
 ### R: Create command line tools with {optparse}
 
 SCK CEN Learning & development
@@ -110,34 +137,7 @@ Mol, Belgium
 **Format** 1-day course
 
 **Topics** Environment variables, Git Bash, R in a terminal, redirections, 
-command line arguments and options, automated execution.
-
-### R: Handle your data with the {tidyverse}
-
-SCK CEN Learning & development
-
-Mol, Belgium
-
-2023
-
-**Format** 3-day course
-
-**Topics** Data reading, cleaning, manipulation and visualization, handling
-specific types, and iteration and nesting.
-
-### R: Get started
-
-SCK CEN Learning & development
-
-Mol, Belgium
-
-2023
-
-**Format** 1-day course
-
-**Topics** Installing the required software, tweaking the RStudio IDE, managing
-contributed packages, binding names to values, working with vectors, subsetting
-R objects, using control flow
+command line arguments and options, and automated execution.
 
 ### Training course on radioactive waste management
 
@@ -152,8 +152,8 @@ Uncertainty quantification" during the 1.5-week [radioactive waste
 management course](https://www.sckcen.be/nl/open-course-radioactive-waste-management).
 Contributed to the editions in 2017, 2021 and 2024.
 
-**Topics** Taylor expansion - Monte Carlo error propagation - Probabilistic
-programming - State of the art in radiological waste characterization
+**Topics** Taylor expansion, Monte Carlo error propagation, probabilistic
+programming, and the state of the art in radiological waste characterization.
 
 ### Modern R for data science: Up your data viz game
 
@@ -165,8 +165,8 @@ Mol, Belgium
 
 **Format** 1-day course, with editions in 2020 and 2021.
 
-**Topics** More details on {ggplot2}, {scales} and extensions - Figure design
-principles - Data visualization types - Animation
+**Topics** More details on {ggplot2}, {scales} and extensions, figure design
+principles, data visualization types, and animation.
 
 ### Modern R for data science: The core tidyverse, good practices and our corporate environment
 
@@ -178,9 +178,9 @@ Mol, Belgium
 
 **Format** 4-day course, with editions in 2019, 2020 and 2021.
 
-**Topics** Data reading, cleaning, manipulation and visualization - Iteration
-with functional programming - Exporting tables and figures - Literate computing
-- Reproducible workflow
+**Topics** Data reading, cleaning, manipulation and visualization, iteration
+with functional programming, exporting tables and figures, literate computing,
+and reproducible workflow.
 
 \newpage
 
@@ -195,7 +195,17 @@ repository](https://researchportal.sckcen.be/en/persons/bart-rogiers) for more
 extensive and up to date overviews of my scientific output.
 :::
 
-### [Bayesian inference of coupled groundwater flow and radiogenic helium-4 production and transport at the catchment scale](https://doi.org/10.1016/j.scitotenv.2024.176510)
+### [Report of RILEM TC 281-CCC: insights into factors affecting the carbonation rate of concrete with SCMs revealed from data mining and machine learning approaches.](https://doi.org/10.1617/s11527-024-02465-0)
+
+Materials and Structures
+
+57: 206
+
+2024
+
+**Authors** Vollpracht A, Gluth GJG, Rogiers B, Uwanuakwa ID, Phung QT, Villagran Zaccardi Y, Thiel C, Vanoutrive H, Etcheverry JM, Gruyaert E, Kamali-Bernard S, Kanellopoulos A, Zhao Z, Martins IM, Rathnarajan S, De Belie N.
+
+### [Bayesian inference of coupled groundwater flow and radiogenic helium-4 production and transport at the catchment scale.](https://doi.org/10.1016/j.scitotenv.2024.176510)
 
 Science of The Total Environment
 
